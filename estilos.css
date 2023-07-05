@@ -1,0 +1,778 @@
+/* SECCION HOME */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    display: inline-flexbox;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+.prueba{
+  background-color: #0069b5;
+}
+
+h1 {
+    font-family: 'Alfa Slab One', cursive !important;
+    /* font-family: 'Montserrat', sans-serif; */
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 5px;
+    color: #080bbf !important;
+}
+
+h2 {
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif !important;
+    justify-content: center;
+    margin-top: 10px;
+    color:white !important;
+    margin-bottom: 20px;
+    border-bottom: 2px solid;
+    padding-bottom: 20px;
+}
+
+h3 {
+  /* font-family: 'Michroma', sans-serif; */
+  font-family: 'Montserrat', sans-serif !important;
+  font-size: 22px;
+  font-weight: 700;
+  color: white;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  border-bottom: 2px solid;
+  padding-bottom: 10px;
+
+}
+
+h4 {
+  font-family: 'Monserrat', sans-serif !important;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+/* DISPOSICION DE ALGUNOS ELEMENTOS EN BLOQUE */
+header,
+section,
+footer,
+nav {
+    display: block;
+}
+
+body {
+
+    background: -webkit-linear-gradient(to right, #0f9b0f, #000000); 
+    background: linear-gradient(to bottom, #0f9b0f, #000000);
+
+}
+
+a {
+    color: white;
+}
+#barra{
+  background-color: black;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  cursor: pointer;
+  
+}
+
+img #logoAfa{
+    width:10px;
+    height: 10px;
+    margin-top: 50px;
+}
+
+/* SELECTORES POR ID Y CLASES,Y SUS RESPECTIVAS PROPIEDADES */
+#agrupar {
+    width: 85%;
+    
+    margin: 10px auto;
+    /* margin tal vez 15 */
+    text-align: left;
+}
+
+#cabecera {
+    padding: 10px;
+}
+
+/* FOOTER */
+#pie {
+    clear: both;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    padding: 20px;
+    /* border-top: 2px solid #999999; */
+    margin-top: 25px;
+    margin-bottom: 0px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+
+    background: #0f0c29;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+/* LOGOS - REDES SOCIALES */
+#facebook{
+  width: 35px;
+  border-radius: 8px;
+  margin-right: 5px;
+}
+#instagram{
+  width: 35px;
+  border-radius: 8px;
+  margin-left: 5px;
+}
+
+.txtfuter{
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+
+.btns {
+    position: absolute;
+    display: block;
+
+}
+
+/* ALGUNAS ANIMACIONES DEL TITULO DEL SITIOWEB E IMG */
+.slide-top {
+	-webkit-animation: slide-top 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) infinite alternate-reverse both;
+	        animation: slide-top 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) infinite alternate-reverse both;
+}
+@-webkit-keyframes slide-top {
+    0% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+    }
+    100% {
+      -webkit-transform: translateY(-100px);
+              transform: translateY(-100px);
+    }
+  }
+  @keyframes slide-top {
+    0% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+    }
+    100% {
+      -webkit-transform: translateY(-100px);
+              transform: translateY(-100px);
+    }
+  }
+
+.scale-up-center {
+	-webkit-animation: scale-up-center 1.5s cubic-bezier(0.390, 0.575, 0.565, 1.000) infinite both;
+	        animation: scale-up-center 1.5s cubic-bezier(0.390, 0.575, 0.565, 1.000) infinite both;
+}
+@-webkit-keyframes scale-up-center {
+    0% {
+      -webkit-transform: scale(0.5);
+              transform: scale(0.5);
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+  }
+  @keyframes scale-up-center {
+    0% {
+      -webkit-transform: scale(0.5);
+              transform: scale(0.5);
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+  }
+
+  
+  @keyframes slidein {
+    from {
+      margin-right: 0%;
+      
+    }
+  
+    to {
+      margin-left: 95%;
+      
+    }
+
+    from {
+        margin-bottom: 10%;
+        
+      }
+    
+      to {
+        margin-top: 0%;
+        
+      }
+  }
+
+/* BOTONES Y CONTENEDORES DE TABLAS Y LISTAS: APLICA PARA SECCIONES FUTBOLISTAS Y CONVOCATORIAS */
+
+#botones {
+  display: inline-block;
+  word-spacing: 15px;
+  align-items: center;
+  overflow: hidden;
+  justify-content: center;
+  margin: 0%;
+  padding-top: 0px;
+  height: 200px;
+}
+
+
+#btnAdd {
+  /* position: relative; */
+  display: inline-flex;
+  font-family: 'Montserrat', sans-serif;
+  /* text-align: right; */
+  align-items: center;
+  
+  opacity: initial;
+  background-color: #008970;
+  font-size: 20px;
+  font-weight: 400;
+  width: 250px;
+  height: 45px;
+  top: 1px;
+  border-color: transparent;
+  border-radius: 8px;
+  color: white;
+
+}
+
+#btnAdd:hover {
+  background-color: #006c58;
+  cursor: pointer;
+}
+
+#btnEdit {
+  position: relative;
+  display: inline-flex;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  opacity: initial;
+  background-color: #0095ff;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: 'Montserrat', sans-serif;
+  width: 250px;
+  height: 45px;
+  border-color: transparent;
+  border-radius: 8px;
+}
+
+#btnEdit:hover {
+  background-color: #0069b5;
+  cursor: pointer;
+}
+
+
+#btnBuscar {
+  position: relative;
+  display: inline-flex;
+  margin: 0px;
+
+  align-items: center;
+  justify-content: center;
+  opacity: initial;
+  background-color: #004170;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: 'Montserrat', sans-serif;
+  margin-left: 0px;
+  border-color: transparent;
+  border-radius: 8px;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  
+  color: white;
+}
+
+
+#btnBuscar:hover {
+  background-color: greenyellow;
+  cursor: pointer;
+}
+
+
+#jugadorBuscado li{
+  position: relative;
+  display: inline-flex;
+  text-align: baseline;
+  justify-content: baseline;
+  justify-items: baseline;
+  background-color: purple;
+  color: white;
+
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+}
+
+#delete{
+  background-color: #1D1D1D;
+  padding: 0px;
+  margin: 0px;
+  font-size: 18px;
+  border-color: transparent;
+  /* border-radius: 9px; */
+  /* color: white; */
+}
+
+
+.editar:hover{
+  background-color: wheat;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.editar{
+  background-color: #1D1D1D;
+  padding: 0px;
+  margin-left: 15px;
+  font-size: 18px;
+  border-color: transparent;
+  border-radius: 9px;
+  
+}
+
+#btnCrearConvocatoria {
+  
+  display: inline-flex;
+  font-family: 'Montserrat', sans-serif;
+  
+  align-items: center;
+  justify-content: center;
+  opacity: initial;
+  background-color: #EF7300;
+  font-size: 20px;
+  font-weight: 400;
+  width: 250px;
+  height: 45px;
+  top: 4px;
+  border-color: transparent;
+  border-radius: 8px;
+  color: white;
+
+}
+
+#btnCrearConvocatoria:hover {
+  background-color: #cd6401;
+  cursor: pointer;
+}
+
+
+
+.contenedorTabla{
+  text-align: center;
+  justify-content: center;
+  /* align-items: center; */
+}
+
+table {
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 50px;
+  table-layout: fixed;
+  margin: auto;
+}
+
+th {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  
+  background-color: #004170;
+  width: 500px;
+  height: auto;
+  top: 268.01px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 18px;
+  color: #FFFFFF;
+  padding: 15px;
+}
+
+td {
+  background-color: #1D1D1D;
+  color: white;
+}
+
+
+@media screen and (max-width: 920px){
+  table{
+      width: 100%;
+      background-color: #000;
+      border-radius: 25px;
+      background-color: rgba(29, 29, 29, 0.9);
+  }
+  thead{
+    display: none;
+  }
+  table tr{
+      display: flex;
+      flex-direction:column;
+      border: 5px solid blue;
+      border-color: blue;
+      border-radius: 25px;
+  }
+  table th{
+      display: none;
+  }
+
+  td,tr{
+      margin: 0px;
+      padding: 0px;
+      border-radius: 25px;
+      background-color: rgba(29, 29, 29, 0.9);
+      margin: 4px;
+  }
+  td:nth-last-child(odd){
+    color: greenyellow;
+  }
+  td:nth-last-child(2n){
+    display: none;
+  }
+}
+
+input{
+
+  display:flexbox;
+  text-align:center;
+  right: 0px;
+  padding-right: 0px;
+  font-size: 20px;
+  font-weight: 500;
+  color: #040404;
+  width: 80%;
+  height:35px;
+  background-color: #004170;
+  color: #030101;
+  border:2px;
+  border-radius: 8px;
+  cursor: pointer;
+  
+ 
+}
+input:focus{
+  border: 3px solid #009F83;
+  border-radius: 8px;
+  background-color: #FFFFFF;
+  overflow: 0px;
+}
+
+#inombre, #iapellido, #iedad, #idni, #idorsal, #iapodo{
+  margin-bottom: 25px;
+}
+select{
+  margin-bottom: 8px;
+}
+
+#buscar{
+  height: 40px;
+  margin:0px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+.buscador{
+  width: 90%;
+  margin: 0px;
+  display: inline-flex;
+
+}
+
+label{
+  
+  bottom:100px;
+  font-weight:500;
+  font-size: 18px;
+  font-family: 'Michroma', sans-serif;
+}
+
+#info {
+  
+  bottom: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 10%;
+  margin-right: 10%;
+ 
+}
+
+#info2{
+  margin: auto;
+}
+
+#info td{
+  background-color: #004170;
+  position: relative;
+  border-radius: 5px;
+  text-align: start; 
+  padding-left:10px;
+  width: 190px;
+}
+#info #rival{
+  text-align: center;
+  padding-right: 10px;
+  
+  width: 110px;
+  
+}
+
+
+td {
+  background-color: #1D1D1D;
+  
+  margin-bottom: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  
+}
+
+.fondo {
+  margin-top: 25px;
+  margin-bottom: 50px;
+
+  padding: 25px;
+  padding-bottom: 25px;
+  background-color: rgba(29, 29, 29, 0.9);
+  
+}
+
+.fondo2{
+  margin-top: 25px;
+  margin-bottom: 15px;
+  padding: 15px;
+  padding-bottom: 25px;
+  background-color: rgba(29, 29, 29, 0.9);
+  overflow: hidden;
+  color: white;
+  
+}
+
+
+.fondo2 li:nth-child(1) {
+  background-color: rgba(11, 64, 95, 0.9);
+  padding: 10px;
+  border-radius: 8px;
+
+}
+
+.fondo3{
+  margin-bottom: 20px;
+  margin-top: auto;
+  padding: 20px;
+}
+
+.prueba {
+  background-color: rgba(29, 29, 29, 0.0);
+  
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: stretch;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 25px;
+}
+
+
+#iposiciones {
+  border-radius: 6px;
+  background-color: green;
+  width:255px;
+  height: 30px;
+}
+#ipie {
+  border-radius: 6px;
+  background-color: green;
+  width:255px;
+  height: 30px;
+}
+
+
+/* SECCION CONVOCATORIAS */
+.entrar {
+  width: 25px;
+  height: 25px;
+  position: relative;
+  top: 5px;
+  left: 10px;
+  cursor: pointer;
+}
+
+.salir {
+  width: 25px;
+  height: 25px;
+  position: relative;
+  top: 5px;
+  right: 10px;
+  cursor: pointer;
+}
+
+ul{
+  color: white;
+  list-style: none;
+  font-size: 16px;
+  /* font-family: 'Michroma', sans-serif; */
+  font-family: 'Montserrat', sans-serif;
+  justify-content: center;
+}
+
+/* #fondoListas{
+  margin-top: 20px;
+  margin-bottom: 5px;
+  margin-left: auto;
+  margin-right: auto;
+} */
+
+/* SECCION CONVOCATORIAS */
+
+.buscador2{
+  width: 80%;
+  margin: 0px;
+  display: inline-flex;
+  justify-content:flex-end;
+}
+#fecha-input{
+  width: 70%;
+  padding: 10px;
+  margin-left: 55px;
+  margin-right: 5px;
+}
+
+#buscar-button {
+  position: relative;
+  display: inline-flex;
+  margin: 0px;
+  
+  align-items: center;
+  justify-content: center;
+  opacity: initial;
+  background-color: #004170;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: 'Montserrat', sans-serif;
+  margin-left: 0px;
+  border-color: transparent;
+  border-radius: 8px;
+  color: black;
+}
+
+
+#buscar-button:hover {
+  background-color: greenyellow;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 2160px){
+  .thUno:first-child{
+    display: none;
+  }
+  #bodyConvocatoria td:nth-child(1){
+    display: none;
+  }
+}
+@media screen and (max-width: 840px){
+  .thUno:first-child{
+    display: none;
+  }
+  #bodyConvocatoria td:nth-child(2){
+    display: block;
+  }
+}
+
+/* SECCION NOTICIAS */
+.card-body{
+  background-color: black;
+  color: white;
+  border-radius: 8px;
+  border-color: black;
+  font-family: 'Montserrat', sans-serif;;
+}
+.card-title{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid;
+  font-size: 23px;
+}
+.card-img, .card-img-top{
+  border-radius: 8px;
+}
+.m-2{
+  background-color: transparent;
+}
+
+@media screen and (min-width: 768px) {
+  .ver-mas-btn {
+    font-size: 20px;
+    margin-top: 50px;
+    width: 250px;
+  }
+}
+
+
+/* EQUIPO TITULAR */
+
+#nombre, #apellido, #edad, #dni, #dorsal, #fecha{
+  margin-bottom: 25px;
+}
+select{
+  margin-bottom: 8px;
+}
+
+.addFecha {
+  
+  display: inline-flex;
+  font-family: 'Montserrat', sans-serif;
+  
+  align-items: center;
+  justify-content: center;
+  opacity: initial;
+  background-color: #6312ae;
+  font-size: 20px;
+  font-weight: 400;
+  width: 200px;
+  height: 40px;
+  top: 4px;
+  border-color: transparent;
+  border-radius: 8px;
+  color: white;
+  margin-bottom: 20px;
+
+}
+
+.addFecha:hover {
+  background-color: #cd6401;
+  cursor: pointer;
+}
+
+#posicion{
+  border-radius: 6px;
+  background-color: green;
+  width: 200px;
+  height: 30px;
+}
+
+.boton-borrar {
+  width: 35px;
+  height: 35px;
+  border-radius: 10px;
+  background-color: red;
+  color: white;
+  font-size: 20px;
+  border: transparent;
+}

@@ -1,0 +1,33 @@
+[
+    {
+    "dni":"12345678",
+    "apellido":"monzon",
+    "nombre":"gaston",
+    "posicion":"Delantero",
+    "edad":"20",
+    "apodo":"leon",
+    "pieHabil":"Pie derecho",
+    "dorsal":"8"
+    },
+    {
+    "dni":"87654321",
+    "apellido":"perez",
+    "nombre":"juan",
+    "posicion":"Mediocampista",
+    "edad":"35",
+    "apodo":"Tigre",
+    "pieHabil":"Pie izquierdo",
+    "dorsal":"9"
+    },
+    {
+    "dni":"55555555",
+    "apellido":"gimenez",
+    "nombre":"emanuel",
+    "posicion":"Defensor",
+    "edad":"30",
+    "apodo":"Tito",
+    "pieHabil":"Pie izquierdo",
+    "dorsal":"10"
+    }
+]
+

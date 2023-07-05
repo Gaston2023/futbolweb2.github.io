@@ -1,0 +1,291 @@
+[
+    {
+        "id": 0,
+        "dni": "30000000",
+        "apellido": "Martinez",
+        "nombre": "Emiliano",
+        "posicion": "Arquero",
+        "apodo": "Dibu",
+        "dorsal": "23",
+        "pieHabil": "Derecho",
+        "imagen": "arquero.png"
+    },
+    {
+        "id": 1,
+        "dni": "30000001",
+        "apellido": "Armani",
+        "nombre": "Franco",
+        "posicion": "Arquero",
+        "apodo": "Franquito",
+        "dorsal": "1",
+        "pieHabil": "Izquiero",
+        "imagen": "arquero.png"
+    },
+    
+    {
+        "id": 2,
+        "dni": "30000002",
+        "apellido": "Molina",
+        "nombre": "Nahuel",
+        "posicion": "Defensor",
+        "apodo": "-",
+        "dorsal": "26",
+        "pieHabil": "Derecho",
+        "imagen":"jugadores.png"
+    },
+    {
+        "id": 3,
+        "dni": "30000003",
+        "apellido": "Romero",
+        "nombre": "Cristian",
+        "posicion": "Defensor",
+        "apodo": "Cuti",
+        "dorsal": "13",
+        "pieHabil": "Derecho",
+        "imagen":"jugadores.png"
+    },
+    {
+        "id": 4,
+        "dni": "30000004",
+        "apellido": "Otamendi",
+        "nombre": "Nicolás",
+        "posicion": "Defensor",
+        "apodo": "-",
+        "dorsal": "19",
+        "pieHabil": "Derecho",
+        "imagen":"jugadores.png"
+    },
+    {
+        "id": 5,
+        "dni": "30000005",
+        "apellido": "Tagliafico",
+        "nombre": "Nicolás",
+        "posicion": "Defensor",
+        "apodo": "-",
+        "dorsal": "3",
+        "pieHabil": "Izquierdo",
+        "imagen":"jugadores.png"
+    },
+    {
+        "id": 6,
+        "dni": "30000006",
+        "apellido": "Acuña",
+        "nombre": "Marcos",
+        "posicion": "Defensor",
+        "apodo": "Huevo",
+        "dorsal": "8",
+        "pieHabil": "Izquierdo",
+        "imagen":"jugadores.png"
+    },
+    {
+        "id": 7,
+        "dni": "30000007",
+        "apellido": "Montiel",
+        "nombre": "Gonzalo",
+        "posicion": "Defensor",
+        "apodo": "-",
+        "dorsal": "4",
+        "pieHabil": "Derecho",
+        "imagen":"jugadores.png"
+    },
+    {
+        "id": 8,
+        "dni": "30000008",
+        "apellido": "Pezzela",
+        "nombre": "Germán",
+        "posicion": "Defensor",
+        "apodo": "-",
+        "dorsal": "6",
+        "pieHabil": "Derecho",
+        "imagen":"jugadores.png"
+    },
+    {
+        "id": 9,
+        "dni": "30000009",
+        "apellido": "Martinez",
+        "nombre": "Lisandro",
+        "posicion": "Defensor",
+        "apodo": "",
+        "dorsal": "25",
+        "pieHabil": "Derecho",
+        "imagen":"jugadores.png"
+    },
+    {
+        "id": 10,
+        "dni": "30000010",
+        "apellido": "Foyth",
+        "nombre": "Juan",
+        "posicion": "Defensor",
+        "apodo": "-",
+        "dorsal": "2",
+        "pieHabil": "Izquierdo",
+        "imagen":"jugadores.png"
+    },
+    {
+        "id": 11,
+        "dni": "30000011",
+        "apellido": "De Paul",
+        "nombre": "Rodrigo",
+        "posicion": "Mediocampista",
+        "apodo": "-",
+        "dorsal": "7",
+        "pieHabil": "Derecho",
+        "imagen":"jugadores.png"
+    },
+    {
+        "id": 12,
+        "dni": "30000012",
+        "apellido": "Fernandez",
+        "nombre": "Enzo",
+        "posicion": "Mediocampista",
+        "apodo": "-",
+        "dorsal": "24",
+        "pieHabil": "Derecho",
+        "imagen":"jugadores.png"
+    },
+    {
+        "id": 13,
+        "dni": "30000013",
+        "apellido": "Mac Allister",
+        "nombre": "Alexis",
+        "posicion": "Mediocampista",
+        "apodo": "-",
+        "dorsal": "20",
+        "pieHabil": "Derecho",
+        "imagen":"jugadores.png"
+    },
+    {
+        "id": 14,
+        "dni": "30000014",
+        "apellido": "Paredes",
+        "nombre": "Leandro",
+        "posicion": "Mediocampista",
+        "apodo": "-",
+        "dorsal": "5",
+        "pieHabil": "Derecho",
+        "imagen":"jugadores.png"
+    },
+    {
+        "id": 15,
+        "dni": "30000015",
+        "apellido": "Rodriguez",
+        "nombre": "Guido",
+        "posicion": "Mediocampista",
+        "apodo": "-",
+        "dorsal": "18",
+        "pieHabil": "Derecho",
+        "imagen":"jugadores.png"
+    },
+    {
+        "id": 16,
+        "dni": "30000016",
+        "apellido": "Palacios",
+        "nombre": "Exequiel",
+        "posicion": "Mediocampista",
+        "apodo": "-",
+        "dorsal": "14",
+        "pieHabil": "Derecho",
+        "imagen":"jugadores.png"
+    },
+    {
+        "id": 17,
+        "dni": "30000017",
+        "apellido": "Gomez",
+        "nombre": "Alejandro",
+        "posicion": "Mediocampista",
+        "apodo": "Papu",
+        "dorsal": "17",
+        "pieHabil": "Derecho",
+        "imagen":"jugadores.png"
+    },
+    {
+        "id": 18,
+        "dni": "30000018",
+        "apellido": "Messi",
+        "nombre": "Lionel",
+        "posicion": "Delantero",
+        "apodo": "-",
+        "dorsal": "10",
+        "pieHabil": "Izquierdo",
+        "imagen":"jugadores.png"
+    },
+    {
+        "id": 19,
+        "dni": "30000019",
+        "apellido": "Alvarez",
+        "nombre": "Julián",
+        "posicion": "Delantero",
+        "apodo": "La araña",
+        "dorsal": "9",
+        "pieHabil": "Derecho",
+        "imagen":"jugadores.png"
+    },
+    {
+        "id": 20,
+        "dni": "30000020",
+        "apellido": "Di Maria",
+        "nombre": "Ángel",
+        "posicion": "Delantero",
+        "apodo": "Fideo",
+        "dorsal": "11",
+        "pieHabil": "Izquierdo",
+        "imagen":"jugadores.png"
+    },
+    {
+        "id": 21,
+        "dni": "30000021",
+        "apellido": "Martinez",
+        "nombre": "Lautaro",
+        "posicion": "Delantero",
+        "apodo": "Toro",
+        "dorsal": "22",
+        "pieHabil": "Derecho",
+        "imagen":"jugadores.png"
+    },
+    {
+        "id": 22,
+        "dni": "30000022",
+        "apellido": "Dybala",
+        "nombre": "Paulo",
+        "posicion": "Delantero",
+        "apodo": "-",
+        "dorsal": "21",
+        "pieHabil": "Izquierdo",
+        "imagen":"jugadores.png"
+    },
+    {
+        "id": 23,
+        "dni": "30000023",
+        "apellido": "Correa",
+        "nombre": "Ángel",
+        "posicion": "Delantero",
+        "apodo": "-",
+        "dorsal": "15",
+        "pieHabil": "Derecho",
+        "imagen":"jugadores.png"
+    },
+    {
+        "id": 24,
+        "dni": "30000024",
+        "apellido": "Almada",
+        "nombre": "Thiago",
+        "posicion": "Delantero",
+        "apodo": "-",
+        "dorsal": "16",
+        "pieHabil": "Derecho",
+        "imagen":"jugadores.png"
+    },
+    {
+        "id": 25,
+        "dni": "30000025",
+        "apellido": "Garnacho",
+        "nombre": "Alejandro",
+        "posicion": "Delantero",
+        "apodo": "",
+        "dorsal": "",
+        "pieHabil": "Derecho",
+        "imagen":"jugadores.png"
+    }
+    
+    
+]

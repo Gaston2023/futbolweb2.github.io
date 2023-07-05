@@ -1,0 +1,20 @@
+[
+    {
+        "id": 0,
+        "fecha": "2023-05-25",
+        "rival": "colombia",
+        "capitan": "Nahuel"
+    },
+    {
+        "id": 1,
+        "fecha": "2023-06-10",
+        "rival": "chile",
+        "capitan": "Juan"
+    },
+    {
+        "id": 2,
+        "fecha": "2023-07-01",
+        "rival": "mexico",
+        "capitan": "Pedro"
+    }
+]

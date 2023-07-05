@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <!-- SEO -->
+    <meta name="author" content="Trigo Monzón C. Gastón">
+    <meta name="copyright" content="Trigo Monzón C. Gastón">
+    <meta name="language" content="spanish">
+    <meta name="audience" content="all">
+    <meta name="title" content="Futbol Web">
+    <meta name="description" content="¡Mira y Prueba Nuestras Bases de Datos Gratis!
+    En nuestro sitioWeb podras crear tus propias convocatorias y almacenar jugadores">
+    <meta name="robots" content="index, all, follow"/>
+    <meta name="category" content="futbol">
+    <meta name="keywords" content="jugadores, convocatorias, equipo, futbol">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Open Graph data -->
+    <meta property="og:title" content="Convocatorias"/>
+    <meta property="og:type" content="Futbol Web"/>
+    <meta property="og:description" content="Creacion de convocatorias"/>
+    <title>Convocatorias</title>
+    <!-- Tipografia Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Montserrat:wght@300&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <!-- Css de Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <!-- CSS perzonalizado -->
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="shortcut icon" href="img/logoafa1.png" type="image/x-icon">
+</head>
+
+<body>
+    <!-- Barra de navegacion -->
+    <nav class="navbar navbar-expand-lg navbar-dark" id="barra" role="navigation">
+        <div class="container-fluid" id="">
+            <a class="navbar-brand" href="#"></a>
+            <img src="img\icono_nombre.jpg" alt="Logo" width="35" height="35" class="d-inline-block align-text-top">
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup" >
+                
+                <div class="navbar-nav ms-auto">
+                    <a class="nav-link active" href="index.html" onmouseover="style.color='red'" onmouseout="style.color='white'">Home</a>
+                    <a class="nav-link active" href="jugadores.html" onmouseover="style.color='red'" onmouseout="style.color='white'">Futbolistas</a>
+                    <a class="nav-link active" href="convocatorias.html" onmouseover="style.color='red'" onmouseout="style.color='white'">Convocatorias y Equipo Titular</a>
+                    
+                    <a class="nav-link active" href="institucional.html" onmouseover="style.color='red'" onmouseout="style.color='white'">Institucional</a>
+                    <a class="nav-link active" href="noticias.html" onmouseover="style.color='red'" onmouseout="style.color='white'">Noticias</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <header id="cabecera">
+        <h1 class="scale-up-center">FUTBOL WEB</h1>
+    </header>
+    <div id="agrupar">
+    <h6>*Ingrese una fecha para buscar una convocatoria, aparecera un aviso y abajo en un item </h6>
+    <div class="buscador2">
+        <input type="date" id="fecha-input">
+        <button id="buscar-button">Buscar</button>
+    </div>
+    <div id="resultado-div"></div>
+      
+        <div class="container-fluid">
+            <div class="row">
+                <div class = "fondo2">
+                    <h2>Convocatorias</h2>
+                    <button class="btn btn-success" id="btnCrearConvocatoria">
+                    <img src="img\iconAgregar.png" alt="Agregar">
+                    Crear Convocatoria</button>
+                    <div class="row justify-content-center">
+                        <div class="col-md-6">
+            
+                        <!-- formulario bootstrap -->
+                        <form class="miForm needs-validation" id="formu"  novalidate>
+                            <div class="form-group mb-4">
+                            <label for="fecha"></label>
+                            <input type="date" class="form-control" id="fecha" required>                  
+                            <div class="invalid-feedback">
+                                Campo requerido!
+                            </div>
+                            </div>
+                            <div class="form-group mb-4">
+                            <label for="rival"></label>
+                            <input type="text" class="form-control" id="rival" placeholder="Rival" required>
+                            <div class="invalid-feedback">
+                                Campo requerido!
+                            </div>
+                            </div>
+                            <div class="form-group mb-4">
+                            <label for="capitan"></label>
+                            <input type="text" class="form-control" id="capitan" placeholder="Capitán" required>
+                            <div class="invalid-feedback">
+                                Campo requerido!
+                            </div>
+                            </div>
+            
+                            <div class="row">
+                            <div>
+                                <button class="btn btn-primary" id="guardar">Agregar Nueva Convocatoria</button>
+                                <button class="btn btn-warning" id="cancelar">Cancelar</button>
+                            </div>
+                            </div>
+            
+                        </form>
+                        </div>
+                    </div>
+                    
+                </div>      
+
+                <div class="fondo2">
+                    <h6>* Si desea eliminar una convocatoria, haga click o toque el boton X rojo *</h6>
+                    <h6>* Si desea convocar Jugadores, haga click o toque el boton + azul *</h6>
+                    <h6>* Si desea editar la convocatoria, haga click o toque el boton Edit celeste *</h6>
+                    <h6>* Si desea formar un Equipo Titular primero debe convocar jugadores, luego haga click o toque el boton Equipo titular naranja *</h6>
+                    <div class="table-responsive">
+                        <table class="" id="table">
+                            <thead>
+                            <tr>
+                                <th class="thUno">#</th>
+                                <th>FECHA</th>
+                                <th>RIVAL</th>
+                                <th>CAPITAN</th>
+                                <th class="acciones">ACCIONES</th>
+                            </tr>
+                            </thead>
+                            <tbody id="bodyConvocatoria"></tbody>
+
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <footer id="pie">
+        <a href="https://www.facebook.com/AFAOFICIAL/">
+        <img src="img\facebook.jpg" alt="No se cargo la imagen" id="facebook">
+        </a>
+        <a href="https://www.instagram.com/afa.oficial/">
+            <img src="img\instagram.jpg" alt="No se cargo la imagen" id="instagram">
+        </a>
+        <p class="txtfuter">
+            Derechos Reservados &copy; 2023 - Gastón <br>
+            ¡Mira y Prueba Nuestras Bases de Datos Gratis!
+            En nuestro sitioWeb podras crear tus propias convocatorias y almacenar jugadores
+        </p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <script src="convocatoria.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+</body>
+    
+</html>
